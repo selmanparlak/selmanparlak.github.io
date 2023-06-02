@@ -1,9 +1,8 @@
+
 body {
     text-align: center;
     margin: 0;
     font-family: 'Source Code Pro', monospace;
-
-
 }
 .top-container {
     position: relative;
@@ -14,6 +13,7 @@ body {
 }
 .bg {
     background-color: #feff86;
+    
 }
 .middle-container {
     margin: 50px ;
@@ -244,4 +244,60 @@ button {
     height: 86px;
     line-height: 88px;
   }
+}
+@media(max-width:1200px) {
+  #top {
+    width: auto;
+    height: auto;
+  }
+  .intro {
+    width: 75%;
+}
+  .grid-container{
+    grid-template: 1fr /  1fr;
+
+  }
+  .grid-container > h2 {
+    margin:50px auto;
+}
+  .grid-item {
+    grid-template: repeat(1, 4fr) / 1fr 0.1fr;
+  }
+   .flex-item {
+    text-align: start;
+
+   }
+   #portfol>.grid-container {
+    grid-template: 1fr / 1fr;
+    width: auto;
+    height: auto;
+    
+  }
+  .flex-pad {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+  }
+  #portfol .flex-pad p {
+    width: 90%;
+}
+#portfol img {
+  object-fit: cover; /* use the one you need */
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+
+}
+#portfol .grid-item {
+  margin:  auto;
+ 
+}
+#portfol .grid-container .flex-item {
+  margin: auto;
+}
+  
+
+  
 }
