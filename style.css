@@ -6,14 +6,18 @@ body {
 }
 .top-container {
     position: relative;
-    padding-top: 200px;
+    padding-top: 20px;
 }
-.profile {
-    margin: 100px auto;
-}
+
 .bg {
-    background-color: #feff86;
+    background-color: #E3FDFD;
     
+}
+#portfol {
+   background-color: #CBF1F5;
+}
+#bottom {
+  background-color: #A6E3E9;
 }
 .middle-container {
     margin: 50px ;
@@ -297,7 +301,4 @@ button {
 #portfol .grid-container .flex-item {
   margin: auto;
 }
-  
-
-  
 }
